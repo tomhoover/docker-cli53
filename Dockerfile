@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.8
 ENV GOPATH /go
 ENV GO15VENDOREXPERIMENT 1
 RUN apk add --no-cache git go make ;\
